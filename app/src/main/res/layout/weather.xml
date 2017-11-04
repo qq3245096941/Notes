@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="horizontal">
+
+   <RadioGroup
+       android:id="@+id/radio_weather"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+       android:background="@android:color/white"
+       android:elevation="5dp"
+       android:orientation="horizontal"
+       android:padding="10dp">
+
+      <RadioButton
+          android:id="@+id/img_qing"
+          style="@style/RadioWeather"
+          android:drawableLeft="@drawable/ic_qing"/>
+
+      <RadioButton
+          android:id="@+id/img_duoyun"
+          style="@style/RadioWeather"
+          android:drawableLeft="@drawable/ic_duo_yun"/>
+
+
+      <RadioButton
+          android:id="@+id/img_wu"
+          style="@style/RadioWeather"
+          android:drawableLeft="@drawable/ic_wu"/>
+
+      <RadioButton
+          android:id="@+id/img_yin"
+          style="@style/RadioWeather"
+          android:drawableLeft="@drawable/ic_yin"/>
+
+      <RadioButton
+          android:id="@+id/img_xiaoyu"
+          style="@style/RadioWeather"
+          android:drawableLeft="@drawable/ic_xiao_yu"/>
+
+      <RadioButton
+          android:id="@+id/img_zhongyu"
+          style="@style/RadioWeather"
+          android:drawableLeft="@drawable/ic_zhong_yu"/>
+
+      <RadioButton
+          android:id="@+id/img_leidian"
+          style="@style/RadioWeather"
+          android:drawableLeft="@drawable/ic_lei_dian"/>
+
+      <RadioButton
+          android:id="@+id/img_feng"
+          style="@style/RadioWeather"
+          android:drawableLeft="@drawable/ic_feng"/>
+
+      <RadioButton
+          android:id="@+id/img_bingbao"
+          style="@style/RadioWeather"
+          android:drawableLeft="@drawable/ic_bing_bao"/>
+
+      <RadioButton
+          android:id="@+id/img_yuxue"
+          style="@style/RadioWeather"
+          android:layout_marginRight="0dp"
+          android:drawableLeft="@drawable/ic_yu_xue"/>
+   </RadioGroup>
+</LinearLayout>
